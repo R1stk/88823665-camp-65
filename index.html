@@ -6,8 +6,36 @@
 </head>
 <body>
     <h1>Workshop #HTML-FORM</h1>
-    <p>This is a paragraph.</p>
-    
+    <form>
+    <table>
+        <tr>
+            <td> <label for="fname">ชื่อ </label></td>
+           <td> <input type="text" id="fname" name="fname"></td>
+        </tr>
+        <tr>
+            <td><label for="lname">สกุล </label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+            <td> <label for="year">วัน/เดือน/ปีเกิด </label></td>
+                <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label for="age">อายุ</label></td>
+            <td><input type="number" id="age" name="age"></td>
+        </tr>
+        <tr>
+            <td><label for="sex">เพศ</label></td>
+            <td><input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language"
+                value="JavaScript">
+                <label for="javascript">JavaScript</label></td>
+        </tr>
+        
+    </table>
+        </form>
 </body>
-
 </html>
