@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workshop</title>
+        <meta charset="UTF-8"/>
+</head>
+<body>
+    <h1>Workshop #HTML-FORM</h1>
+    <form>
+    <table>
+        <tr>
+            <td> <label for="fname">ชื่อ </label></td>
+           <td> <input type="text" id="fname" name="fname"></td>
+        </tr>
+        <tr>
+            <td><label for="lname">สกุล </label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+            <td> <label for="year">วัน/เดือน/ปีเกิด </label></td>
+                <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label for="age">อายุ</label></td>
+            <td><input type="number" id="age" name="age"></td>
+        </tr>
+        <tr>
+            <td><label for="sex">เพศ</label></td>
+            <td><input type="radio" id="male" name="my_sex" value="ชาย">
+                <label for="male">ชาย</label>
+                <input type="radio" id="female" name="my_sex" value="หญิง">
+                <label for="female">หญิง</label><br></td>
+        </tr>
+        <tr>
+            <td><label for="photo">รูป</label></td>
+            <td><input type="file" id="myfile" name="myfile"></td>
+        </tr>
+        <tr>
+            <td><label for="address">ที่อยู่</label></td>
+            <td><textarea rows="4" cols="40"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="fav_color">สีที่ชอบ</label></td>
+            <td><select id="fav_color" name="fav_color">
+                <option value="red">สีแดง</option>
+                <option value="green">สีเขียว</option>
+                <option value="blue">สีน้ำเงิน</option>
+                <option value="orange">สีส้ม</option>
+                <option value="yellow">สีเหลือง</option>
+                <option value="pink">สีชมพู</option>
+                <option value="purple">สีม่วง</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="fav_music">แนวเพลงที่ชอบ</label></td>
+            <td><input type="radio" id="rock" name="fav_music" value="เพื่อชีวิต">
+                <label for="rock">เพื่อชีวิต</label>
+                <input type="radio" id="country" name="fav_music" value="ลูกทุ่ง">
+                <label for="country">ลูกทุ่ง</label>
+                <input type="radio" id="other" name="fav_music" value="อื่นๆ">
+                <label for="other">อื่นๆ</label><br></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="confirm" name="confirm">
+            <label for="confirm">ยินยอมให้เก็บข้อมูล</label></td>
+        </tr>
+        <tr>
+            <td><button type="reset">Reset</button>
+            <button type="submit">Submit</button></td>
+        </tr>
+    </table>
+        </form>
+</body>
+</html>
